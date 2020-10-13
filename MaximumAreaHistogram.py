@@ -11,7 +11,7 @@ def lra(A):
             else:
                 st.pop(top)
                 top-=1
-                while top!=-1 and A[st[top]]>A[i]:
+                while top!=-1 and A[st[top]]>=A[i]:
                     st.pop(top)
                     top-=1
                 if top==-1:
@@ -32,7 +32,7 @@ def lra(A):
             else:
                 st.pop(top)
                 top-=1
-                while top!=-1 and A[st[top]]>A[i]:
+                while top!=-1 and A[st[top]]>=A[i]:
                     st.pop(top)
                     top-=1
                 if top==-1:
@@ -50,5 +50,5 @@ def lra(A):
             if p>ans:
                 ans=p
         return ans
-t=list(map(int , input().split()))
+t=list(map(int ,input().split()))
 print(lra(t))
