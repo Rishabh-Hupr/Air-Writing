@@ -4,8 +4,8 @@ import cv2
 import mediapipe as mp
 import time
 
-remCam = "http://192.168.1.14:4747/video"
-cap = cv2.VideoCapture(remCam)
+#remCam = "http://192.168.1.14:4747/video"
+cap = cv2.VideoCapture(0)
 colors = list()
 for i in os.listdir("Colors"):
     tmp = cv2.imread("Colors/" + i)
