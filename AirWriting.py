@@ -50,7 +50,7 @@ while True:
                 cx, cy = int(lnd.x * w), int(lnd.y * h)
                 positions.append([iid, cx, cy])
 
-            # mpDraw.draw_landmarks(img, handldmks, mphands.HAND_CONNECTIONS)
+            mpDraw.draw_landmarks(img, handldmks, mphands.HAND_CONNECTIONS)
 
     if positions:
         x1 = positions[8][1]
