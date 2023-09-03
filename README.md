@@ -9,11 +9,13 @@ The way it looks is:
 
 Installation & Execution:
 
-``git clone https://github.com/Rishabh-Hupr/Air-Writing.git``
-``python3 -m venv custom``
-``source custom/bin/activate``
-``pip3 install -r requirements.txt``
-``python3 AirWriting.py``
+```
+git clone https://github.com/Rishabh-Hupr/Air-Writing.git
+python3 -m venv custom
+source custom/bin/activate
+pip3 install -r requirements.txt
+python3 AirWriting.py
+```
 
 
 If any issues, feel free to create an issue on the repository 😀
