@@ -11,6 +11,7 @@ Installation & Execution:
 
 ```
 git clone https://github.com/Rishabh-Hupr/Air-Writing.git
+cd Air-Writing
 python3 -m venv custom
 source custom/bin/activate
 pip3 install -r requirements.txt
