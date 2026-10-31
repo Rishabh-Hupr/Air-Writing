@@ -1,13 +1,15 @@
-absl-py==1.4.0
+absl-py==2.3.1
 attrs==23.1.0
+certifi==2026.10.23
 cffi==1.15.1
 contourpy==1.1.0
 cycler==0.11.0
-flatbuffers==23.5.26
+flatbuffers==25.12.19
 fonttools==4.42.1
+importlib_resources==6.5.2
 kiwisolver==1.4.5
 matplotlib==3.7.2
-mediapipe==0.10.3
+mediapipe==0.10.35
 numpy==1.25.2
 opencv-contrib-python==4.8.0.76
 opencv-python==4.8.0.76
@@ -18,4 +20,5 @@ pycparser==2.21
 pyparsing==3.0.9
 python-dateutil==2.8.2
 six==1.16.0
-sounddevice==0.4.6
+sounddevice==0.5.6
+zipp==3.23.1
